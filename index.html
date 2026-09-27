@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gerard Barrera Peñas · Currículum</title>
+<meta name="description" content="Currículum de Gerard Barrera Peñas, juez de la Sección Penal del Tribunal de Instancia de Tarragona.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Source+Sans+3:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+<style>
+:root{
+ --bg:#FFFFFF;--ink:#1B2230;--muted:#6B7280;--line:#E1E4E8;--blue:#1F4E79;--blue-soft:#EAF1F8;
+ --sans:Aptos,"Source Sans 3","Segoe UI",system-ui,-apple-system,sans-serif;
+ --serif:Garamond,"EB Garamond","Adobe Garamond Pro",Georgia,serif;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161D;--ink:#E6E9EE;--muted:#9AA1AD;--line:#262C36;--blue:#8DB6E0;--blue-soft:#1A2433}}
+:root[data-theme="dark"]{--bg:#12161D;--ink:#E6E9EE;--muted:#9AA1AD;--line:#262C36;--blue:#8DB6E0;--blue-soft:#1A2433}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--blue) 35%,transparent);text-underline-offset:3px}
+a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+p{margin:0}
+.wrap{max-width:800px;margin:0 auto;padding:84px 28px 96px}
+
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px;flex-wrap:wrap}
+h1{font-family:var(--serif);font-weight:700;color:var(--blue);font-size:clamp(40px,7vw,60px);line-height:1;letter-spacing:-.005em;margin:0}
+.mail{margin-top:14px;font-size:16px}
+.mail a{color:var(--ink);text-decoration-color:var(--line)}
+.ctrl{display:flex;gap:18px;font-size:14px}
+.ctrl button{font:inherit;color:var(--muted);background:none;border:0;padding:4px 0;cursor:pointer;position:relative}
+.ctrl button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--blue);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.ctrl button:hover{color:var(--ink)} .ctrl button:hover::after{transform:scaleX(1)}
+
+.sec{border-top:1px solid var(--line)}
+.sec:last-of-type{border-bottom:1px solid var(--line)}
+.sec>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:20px 0;position:relative}
+.sec>summary::-webkit-details-marker{display:none}
+.sec>summary::before{content:"";position:absolute;left:0;top:-1px;height:2px;width:100%;background:var(--blue);transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.sec.is-open>summary::before{transform:scaleX(.12)}
+.sec>summary:hover::before{transform:scaleX(.2)}
+h2{font-family:var(--sans);font-weight:700;font-style:italic;font-size:19px;color:var(--blue);margin:0}
+.count{font-size:13px;color:var(--muted);min-width:22px;height:22px;border-radius:11px;display:inline-grid;place-items:center;padding:0 7px;background:var(--blue-soft);transition:opacity .3s,transform .3s}
+.sec.is-open .count{opacity:0;transform:scale(.6)}
+.chev{margin-left:auto;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;transition:background .2s}
+.chev::before{content:"";width:8px;height:8px;border-right:1.6px solid var(--blue);border-bottom:1.6px solid var(--blue);transform:translateY(-2px) rotate(45deg);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.sec.is-open .chev::before{transform:translateY(2px) rotate(-135deg)}
+.sec>summary:hover .chev{background:var(--blue-soft)}
+
+.panel{overflow:hidden}
+.content{padding:0 0 28px}
+.lede{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.rows{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:168px 1fr;gap:20px;padding:9px 0}
+.when{color:var(--muted);font-size:14px;padding-top:2px}
+.what{font-weight:700}
+.inst{font-weight:400;color:var(--muted);margin-left:8px}
+.sub{color:var(--muted);text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.award{display:inline-block;font-weight:400;font-size:13px;color:var(--blue);background:var(--blue-soft);border-radius:10px;padding:1px 9px;margin-left:10px;vertical-align:2px}
+
+.item>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:4px;padding-right:34px;position:relative;flex-wrap:wrap}
+.item>summary::-webkit-details-marker{display:none}
+.item>summary .what{transition:color .2s}
+.item>summary:hover .what{color:var(--blue)}
+.plus{position:absolute;right:0;top:0;width:24px;height:24px;border-radius:50%;border:1px solid var(--line);transition:transform .35s cubic-bezier(.2,.7,.2,1),background .2s,border-color .2s}
+.plus::before,.plus::after{content:"";position:absolute;left:50%;top:50%;width:10px;height:1.5px;background:var(--blue);transform:translate(-50%,-50%)}
+.plus::after{transform:translate(-50%,-50%) rotate(90deg)}
+.item.is-open .plus{transform:rotate(45deg);background:var(--blue-soft);border-color:transparent}
+.item>summary:hover .plus{border-color:var(--blue)}
+.long{padding:8px 0 4px;text-align:justify;hyphens:auto;-webkit-hyphens:auto;color:var(--ink);border-left:2px solid var(--blue-soft);padding-left:14px;margin-top:6px}
+
+.langs{display:flex;flex-wrap:wrap;gap:8px 30px}
+.langs span{color:var(--muted)} .langs b{color:var(--ink);margin-right:4px}
+
+.intro{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+@media (max-width:600px){
+ .wrap{padding:44px 20px 64px} header{margin-bottom:30px}
+ .row{grid-template-columns:1fr;gap:1px} .when{font-size:13px}
+ .inst{display:block;margin-left:0}
+ .award{margin-left:0;margin-top:3px}
+ .lede,.sub,.long{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+@media print{.ctrl{display:none}.chev,.plus,.count{display:none}.sec>summary::before{display:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="intro">
+  <div>
+    <h1>Gerard Barrera Peñas</h1>
+    <p class="mail"><a href="mailto:g.barrera@poderjudicial.es">g.barrera@poderjudicial.es</a></p>
+  </div>
+  <div class="ctrl"><button type="button" id="openAll">Desplegar todo</button><button type="button" id="closeAll">Plegar todo</button></div>
+</header>
+<details class="sec" id="perfil" open><summary><h2>Perfil</h2><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><p class="lede">Juez de carrera con trayectoria eminentemente en la jurisdicción penal, combinada con una formación técnica especializada en programación en Python e inteligencia artificial aplicada al ámbito judicial. Desarrollador de herramientas informáticas de automatización y gestión judicial premiadas por el Consejo General del Poder Judicial. Actividad investigadora, docente y de divulgación, reflejada en publicaciones doctrinales y en la dirección de jornadas formativas.</p></div></div></details>
+<details class="sec" id="experiencia" open><summary><h2>Experiencia</h2><span class="count">6</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">feb. 2024 – actualidad</span><div><p class="what">Juez Titular</p><p class="sub">Plaza n.º 2 de la Sección Penal del Tribunal de Instancia de Tarragona.</p></div></li><li class="row"><span class="when">jun. 2024 – actualidad</span><div><p class="what">Preparador de oposiciones a la Carrera Judicial y Fiscal</p><p class="sub">Profesional independiente.</p></div></li><li class="row"><span class="when">jul. 2023 – feb. 2024</span><div><p class="what">Juez en funciones de sustitución y refuerzo</p><p class="sub">Juzgado de 1.ª Instancia e Instrucción n.º 2 de Almuñécar y de Violencia sobre la Mujer.</p></div></li><li class="row"><span class="when">dic. 2022 – jul. 2023</span><div><p class="what">Juez adjunto</p><p class="sub">Juzgados de Instrucción n.º 1 y de 1.ª Instancia n.º 1 de Granada.</p></div></li><li class="row"><span class="when">ene. 2022 – dic. 2022</span><div><p class="what">Juez en prácticas</p><p class="sub">Escuela Judicial, Consejo General del Poder Judicial.</p></div></li><li class="row"><span class="when">mar. 2019 – sept. 2021</span><div><p class="what">Opositor a la Carrera Judicial y Fiscal</p></div></li></ul></div></div></details>
+<details class="sec" id="proyectos" open><summary><h2>Proyectos</h2><span class="count">7</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">sept. 2026 – actualidad</span><details class="item"><summary><span class="what">Suite de herramientas de la jurisdicción penal</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Integración de las herramientas en una suite con lanzador propio que centraliza instalación, apertura y actualización, y una configuración común del órgano judicial. Distribución desde un repositorio público de GitHub con publicación de versiones, actualización automática verificada mediante huella criptográfica y canal de avisos a los usuarios.</p></div></details></li><li class="row"><span class="when">jul. 2026</span><details class="item"><summary><span class="what">Herramienta de sanciones por incomparecencia</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Gestiona la imposición de multas al testigo o perito incomparecido: genera el acuerdo sancionador, la providencia de incoación de pieza separada y, en su caso, el auto de conducción.</p></div></details></li><li class="row"><span class="when">feb. 2026 – may. 2026</span><details class="item"><summary><span class="what">Herramienta de resoluciones sobre situación personal</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Documentación de autos de prisión provisional y de libertad en los supuestos de incomparecencia, ratificación de prisión, requisitoria y comparecencia del artículo 505 LECrim.</p></div></details></li><li class="row"><span class="when">dic. 2025 – actualidad</span><details class="item"><summary><span class="what">Blog Justicia en Código</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Iniciativa divulgativa que explora la convergencia entre la función jurisdiccional y la programación, a través del blog <a href="https://www.justiciaencodigo.com" target="_blank" rel="noopener">justiciaencodigo.com</a> y del canal <a href="https://x.com/juezprogramador" target="_blank" rel="noopener">@juezprogramador</a> en X: software abierto, análisis técnicos y tutoriales orientados a la modernización judicial.</p></div></details></li><li class="row"><span class="when">jul. 2025 – dic. 2025</span><details class="item"><summary><span class="what">Herramienta ejecución penal</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Procesa y analiza la hoja de antecedentes penales, emite informes detallados sobre su cancelabilidad y asiste en la adopción de resoluciones procesales de ejecución.</p></div></details></li><li class="row"><span class="when">ago. 2025</span><details class="item"><summary><span class="what">Calculadora de duración de vistas</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Estima la duración de los señalamientos conforme a los criterios de la Junta de Jueces de lo Penal de Tarragona, con criterios propios y circunstancias adicionales configurables.</p></div></details></li><li class="row"><span class="when">mar. 2024 – jul. 2025</span><details class="item"><summary><span class="what">Herramienta de conformidad penal</span><span class="award">Premiado por el CGPJ</span><span class="plus" aria-hidden="true"></span></summary><div class="panel"><p class="long">Automatiza la generación de sentencias de conformidad penal y sus resoluciones conexas.</p></div></details></li></ul></div></div></details>
+<details class="sec" id="premios" open><summary><h2>Premios</h2><span class="count">2</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">nov. 2025</span><div><p class="what">Premio a la Innovación y Eficacia Judicial</p><p class="sub">Asociación Judicial Francisco de Vitoria.</p></div></li><li class="row"><span class="when">may. 2025</span><div><p class="what">Premio Justicia más eficaz</p><p class="sub">XII Premios a la Calidad de la Justicia, CGPJ. Por la herramienta de conformidad penal.</p></div></li></ul></div></div></details>
+<details class="sec" id="ponencias-y-cursos"><summary><h2>Ponencias y cursos</h2><span class="count">7</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">21–23 sept. 2026</span><div><p class="what">La intel·ligència artificial des d&#x27;una triple perspectiva: tècnica, jurídica i pràctica</p><p class="sub">Coordinador y ponente. Centre d&#x27;Estudis Jurídics i Formació Especialitzada (CEJFE).</p></div></li><li class="row"><span class="when">7–10 jul. 2026</span><div><p class="what">Evaluación crítica de resultados generados por IA</p><p class="sub">Ponente. Escuela de Verano del Poder Judicial dedicada a la Inteligencia Artificial (CGPJ).</p></div></li><li class="row"><span class="when">6 jul. 2026</span><div><p class="what">Introducción a la IA para docentes</p><p class="sub">Coordinador y ponente. Escuela Judicial (CGPJ), Plan de Formación para el personal al servicio del CGPJ.</p></div></li><li class="row"><span class="when">7–8 may. 2026</span><div><p class="what">Más allá de la IA generativa: la programación tradicional como motor de la eficiencia en el ejercicio de la labor jurisdiccional</p><p class="sub">Comunicación. XI Processulus, Congreso de Jóvenes Investigadores en Derecho Procesal, Facultad de Derecho de la Universidad de Granada (UGR).</p></div></li><li class="row"><span class="when">29 abr. 2026</span><div><p class="what">Admisión y valoración de la prueba electrónica</p><p class="sub">Ponente. Jornadas ICAT sobre la problemática de la prueba digital en el proceso penal, Ilustre Colegio de la Abogacía de Tarragona.</p></div></li><li class="row"><span class="when">12–13 mar. 2026</span><div><p class="what">La programación clásica frente a los modelos de inteligencia artificial: diferencias estructurales y aplicaciones prácticas en el ámbito judicial</p><p class="sub">Ponente. Jornadas de Tarragona sobre Inteligencia Artificial.</p></div></li><li class="row"><span class="when">24 oct. 2025</span><div><p class="what">El juez en la era de la inteligencia artificial: independencia y tecnología</p><p class="sub">Ponente. Seminari del Grup de Recerca en Dret Processal, Facultat de Dret, Universitat Pompeu Fabra (UPF).</p></div></li></ul></div></div></details>
+<details class="sec" id="publicaciones"><summary><h2>Publicaciones</h2><span class="count">3</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">2026</span><div><p class="what">Más allá de la IA generativa: la programación tradicional como motor de la eficiencia en el ejercicio de la labor jurisdiccional</p><p class="sub"><i>Atelier</i> (en prensa).</p></div></li><li class="row"><span class="when">2026</span><div><p class="what">Proposición, admisión y valoración de la prueba electrónica en el proceso penal</p><p class="sub"><i>Justicia: Revista de Derecho Procesal</i>, Bosch Editor, núm. 1, págs. 403–439.</p></div></li><li class="row"><span class="when">2024</span><div><p class="what">La posesión y los derechos reales: análisis jurisprudencial</p><p class="sub">En <i>El Derecho Civil catalán desde la jurisprudencia y la práctica judicial</i>, Atelier, págs. 619–635.</p></div></li></ul></div></div></details>
+<details class="sec" id="certificaciones-y-formacion-tecnica"><summary><h2>Certificaciones y formación técnica</h2><span class="count">11</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">En curso</span><div><p class="what">Iniciación a la Inteligencia Artificial<span class="inst">Universitat Oberta de Catalunya (UOC).</span></p></div></li><li class="row"><span class="when">sept. 2026</span><div><p class="what">AI, Justice, and the Rule of Law<span class="inst">University of Oxford y UNESCO.</span></p></div></li><li class="row"><span class="when">sept. 2026</span><div><p class="what">Python for Programmers<span class="inst">Codecademy.</span></p></div></li><li class="row"><span class="when">jun. 2026</span><div><p class="what">Generative AI: Prompt Engineering Basics<span class="inst">IBM.</span></p></div></li><li class="row"><span class="when">nov. 2025</span><div><p class="what">Fundamentos de Prompting para IA I y II<span class="inst">Google.</span></p></div></li><li class="row"><span class="when">nov. 2025</span><div><p class="what">Introduction to Artificial Intelligence<span class="inst">IBM.</span></p></div></li><li class="row"><span class="when">nov. 2025</span><div><p class="what">Elements of AI<span class="inst">University of Helsinki.</span></p></div></li><li class="row"><span class="when">nov. 2025</span><div><p class="what">Python Programming Essentials<span class="inst">Rice University.</span></p></div></li><li class="row"><span class="when">oct. 2025</span><div><p class="what">AI in Society: AI and Justice<span class="inst">University of Helsinki.</span></p></div></li><li class="row"><span class="when">oct. 2025</span><div><p class="what">AI in Society: Introduction<span class="inst">University of Helsinki.</span></p></div></li><li class="row"><span class="when">jul. 2025</span><div><p class="what">Microcredenciales universitarias en Python A1, A2 y B1<span class="inst">Universitat Oberta de Catalunya (UOC).</span></p></div></li></ul></div></div></details>
+<details class="sec" id="formacion-academica"><summary><h2>Formación académica</h2><span class="count">3</span><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><ul class="rows"><li class="row"><span class="when">2021 – 2023</span><div><p class="what">Máster en Ejercicio de la Función Jurisdiccional</p><p class="sub">Universidad Nacional de Educación a Distancia (UNED).</p></div></li><li class="row"><span class="when">2022 – 2023</span><div><p class="what">Posgrado de Derecho Foral Catalán</p><p class="sub">Universitat de Barcelona (UB).</p></div></li><li class="row"><span class="when">2013 – 2019</span><div><p class="what">Doble Grado en Derecho y en Ciencias Políticas y Gestión Pública</p><p class="sub">Universitat Autònoma de Barcelona (UAB).</p></div></li></ul></div></div></details>
+<details class="sec" id="idiomas" open><summary><h2>Idiomas</h2><span class="chev" aria-hidden="true"></span></summary><div class="panel"><div class="content"><p class="langs"><span><b>Castellano</b> nativo.</span><span><b>Catalán</b> nativo.</span><span><b>Inglés</b> intermedio-alto.</span><span><b>Francés</b> básico.</span></p></div></div></details>
+
+</main>
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var EASE_OUT = 'cubic-bezier(.2,.7,.2,1)';
+  function panelOf(d){ return d.querySelector(':scope > .panel'); }
+  function sync(d){ d.classList.toggle('is-open', d.open); }
+
+  function open(d){
+    if (d.open && !d._closing) return;
+    var p = panelOf(d);
+    if (d._anim) d._anim.cancel();
+    d._closing = false;
+    d.open = true; sync(d);
+    if (reduce || !p) return;
+    var h = p.scrollHeight;
+    d._anim = p.animate([{height:'0px'},{height:h+'px'}], {duration: Math.min(520, 220 + h*0.35), easing: EASE_OUT});
+    d._anim.onfinish = function(){ d._anim = null; };
+    // escalonado de las filas
+    var rows = p.querySelectorAll(':scope > .content > .rows > .row, :scope > .content > .lede, :scope > .content > .langs, :scope > .long');
+    Array.prototype.forEach.call(rows, function(r, i){
+      r.animate([{opacity:0, transform:'translateY(8px)'},{opacity:1, transform:'none'}],
+                {duration: 360, delay: 40 + Math.min(i,10)*45, easing: EASE_OUT, fill:'backwards'});
+    });
+  }
+  function close(d){
+    if (!d.open || d._closing) return;
+    var p = panelOf(d);
+    d.classList.remove('is-open');
+    if (reduce || !p){ d.open = false; return; }
+    if (d._anim) d._anim.cancel();
+    d._closing = true;
+    var h = p.offsetHeight;
+    d._anim = p.animate([{height:h+'px', opacity:1},{height:'0px', opacity:0}], {duration: Math.min(380, 180 + h*0.2), easing:'cubic-bezier(.4,0,.6,1)'});
+    d._anim.onfinish = function(){ d.open = false; d._closing = false; d._anim = null; };
+  }
+
+  var all = Array.prototype.slice.call(document.querySelectorAll('details'));
+  all.forEach(function(d){
+    sync(d);
+    d.querySelector(':scope > summary').addEventListener('click', function(e){
+      e.preventDefault();
+      (d.open && !d._closing) ? close(d) : open(d);
+    });
+  });
+
+  document.getElementById('openAll').addEventListener('click', function(){
+    all.filter(function(d){return d.classList.contains('sec')}).forEach(function(d,i){ setTimeout(function(){ open(d); }, reduce?0:i*60); });
+    setTimeout(function(){ all.filter(function(d){return d.classList.contains('item')}).forEach(open); }, reduce?0:200);
+  });
+  document.getElementById('closeAll').addEventListener('click', function(){
+    all.slice().reverse().forEach(function(d,i){ setTimeout(function(){ close(d); }, reduce?0:i*25); });
+  });
+
+  // Al imprimir, todo desplegado
+  var saved = [];
+  addEventListener('beforeprint', function(){ saved = all.map(function(d){return d.open}); all.forEach(function(d){ d.open = true; sync(d); }); });
+  addEventListener('afterprint', function(){ all.forEach(function(d,i){ d.open = saved[i]; sync(d); }); });
+})();
+</script>
+</body>
+</html>
